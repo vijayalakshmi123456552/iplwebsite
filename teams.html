@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>IPL Arena | Teams</title>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<style>
+
+body {
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fb;
+}
+
+.navbar {
+    background:#071a52;
+    padding:15px 0;
+}
+
+.navbar-brand {
+    font-size:25px;
+    font-weight:800;
+}
+
+.navbar-brand span {
+    color:#ffcc00;
+}
+
+.nav-link {
+    color:white!important;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover {
+    color:#ffcc00!important;
+}
+
+.page-header {
+    background:
+    linear-gradient(rgba(5,20,65,.85),rgba(5,20,65,.85)),
+    url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1600&q=85");
+
+    background-size:cover;
+    background-position:center;
+
+    padding:100px 0;
+    color:white;
+    text-align:center;
+}
+
+.page-header h1 {
+    font-weight:800;
+    font-size:48px;
+}
+
+.team-card {
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.4s;
+    height:100%;
+}
+
+.team-card:hover {
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.team-logo {
+    height:180px;
+    background:linear-gradient(135deg,#071a52,#123d91);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:45px;
+    font-weight:800;
+}
+
+.team-card h4 {
+    font-weight:700;
+    color:#071a52;
+}
+
+.team-card .badge {
+    font-size:12px;
+    padding:7px 12px;
+}
+
+footer {
+    background:#041238;
+    color:#ddd;
+    padding:30px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+IPL <span>ARENA</span>
+</a>
+
+<button class="navbar-toggler"
+data-toggle="collapse"
+data-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="teams.html">Teams</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="players.html">Players</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="schedule.html">Schedule</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+<!-- HEADER -->
+
+<section class="page-header">
+
+<div class="container">
+
+<h1>IPL Teams</h1>
+
+<p>
+The franchises that bring energy, rivalry and unforgettable cricket
+to the biggest T20 stage.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- TEAMS -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="row">
+
+
+<!-- CSK -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+CSK
+</div>
+
+<div class="card-body">
+
+<h4>Chennai Super Kings</h4>
+
+<span class="badge badge-warning">
+Chennai
+</span>
+
+<p class="text-muted mt-3">
+Known for consistency, experienced leadership and a passionate
+yellow army, CSK has created a remarkable legacy in IPL cricket.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- MI -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+MI
+</div>
+
+<div class="card-body">
+
+<h4>Mumbai Indians</h4>
+
+<span class="badge badge-primary">
+Mumbai
+</span>
+
+<p class="text-muted mt-3">
+Mumbai Indians are one of the most successful and popular franchises,
+famous for powerful batting and strong team performances.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- RCB -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+RCB
+</div>
+
+<div class="card-body">
+
+<h4>Royal Challengers Bengaluru</h4>
+
+<span class="badge badge-danger">
+Bengaluru
+</span>
+
+<p class="text-muted mt-3">
+A team known for passionate supporters, iconic players and an
+unforgettable atmosphere at every home game.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- KKR -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+KKR
+</div>
+
+<div class="card-body">
+
+<h4>Kolkata Knight Riders</h4>
+
+<span class="badge badge-dark">
+Kolkata
+</span>
+
+<p class="text-muted mt-3">
+KKR brings together exciting talent, aggressive cricket and a
+strong home-ground identity.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- SRH -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+SRH
+</div>
+
+<div class="card-body">
+
+<h4>Sunrisers Hyderabad</h4>
+
+<span class="badge badge-warning">
+Hyderabad
+</span>
+
+<p class="text-muted mt-3">
+SRH is recognised for exciting young talent, explosive batting and
+competitive bowling performances.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- DC -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+DC
+</div>
+
+<div class="card-body">
+
+<h4>Delhi Capitals</h4>
+
+<span class="badge badge-info">
+Delhi
+</span>
+
+<p class="text-muted mt-3">
+Delhi Capitals represent the capital with a blend of established
+stars and exciting emerging cricketers.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- RR -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+RR
+</div>
+
+<div class="card-body">
+
+<h4>Rajasthan Royals</h4>
+
+<span class="badge badge-danger">
+Rajasthan
+</span>
+
+<p class="text-muted mt-3">
+The Royals have a strong reputation for discovering young
+talent and playing creative cricket.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- PBKS -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+PBKS
+</div>
+
+<div class="card-body">
+
+<h4>Punjab Kings</h4>
+
+<span class="badge badge-danger">
+Punjab
+</span>
+
+<p class="text-muted mt-3">
+Punjab Kings bring an energetic style of cricket and a passionate
+fan base to the IPL.
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+<!-- GT -->
+
+<div class="col-lg-4 col-md-6 mb-4">
+
+<div class="card team-card">
+
+<div class="team-logo">
+GT
+</div>
+
+<div class="card-body">
+
+<h4>Gujarat Titans</h4>
+
+<span class="badge badge-secondary">
+Gujarat
+</span>
+
+<p class="text-muted mt-3">
+The Titans have quickly established themselves as a competitive
+franchise with disciplined team cricket.
+</p>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<div class="container text-center">
+
+<h5>IPL <span class="text-warning">ARENA</span></h5>
+
+<p class="mb-0">
+Celebrating the spirit of T20 cricket.
+</p>
+
+</div>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
